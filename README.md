@@ -17,3 +17,7 @@
         **1996 with 5351983 flights**
     -  Which country is the most popular destination for flights?
         **ORD with 2326296 flights**
+
+## Integrate Tableau Desktop with Amazon RDS
+- Entered admin details for the Amazon RDS and updated to have the current form of the data in Tableau
+- 
