@@ -6,3 +6,14 @@
 - Concatenated the dataframes to produce a master dataframe. The 1995 and 1996 had 4 columns of extra data so these were discarded. If kept, 75% of the entries in these columns would have been NaN
 - Exported the dataframe to a csv and uploaded it to an S3 bucket
 
+## PostgreSQL RDS data import and reporting
+- Connected an RDS database to pgadmin4 and established a server with a 'flights' table
+- Imported the combined_data.csv into the flights table and used SQL statements to calculate the following statistics:
+    - How many total records does the table contain? 
+        **42722968**
+    - Does it have the same number of records as those in the combined_data.csv file?
+        **Yes**
+    - Which year had the most number of total inbound and outbound flights? 
+        **1996 with 5351983 flights**
+    -  Which country is the most popular destination for flights?
+        **ORD with 2326296 flights**
