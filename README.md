@@ -18,6 +18,14 @@
     -  Which country is the most popular destination for flights?
         **ORD with 2326296 flights**
 
-## Integrate Tableau Desktop with Amazon RDS
+## Integrate Tableau Desktop with Amazon RDS and produce reports
 - Entered admin details for the Amazon RDS and updated to have the current form of the data in Tableau
-- 
+- Created a chart that displays the historical data for the highest flight destinations, searchable by year with a filter
+- Created a bar chart that shows the average distance that airplanes travel for all flights for each carrier, searchable by year with a filter
+- Created a line chart that shows the top most used flight numbers and found the most popular origins and destinations for each:
+    1. **505** ORIGIN: *ORD* DESTINATION: *MCI*
+    2. **409** ORIGIN: *LGA* DESTINATION: *DFW*
+    3. **440** ORIGIN: *PHX* DESTINATION: *PHX*
+    4. **456** ORIGIN: *PHX* DESTINATION: *PHX*
+    5. **711** ORIGIN: *JFK* DESTINATION: *LAS*
+-
