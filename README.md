@@ -28,4 +28,4 @@
     3. **440** ORIGIN: *PHX* DESTINATION: *PHX*
     4. **456** ORIGIN: *PHX* DESTINATION: *PHX*
     5. **711** ORIGIN: *JFK* DESTINATION: *LAS*
--
+- Created a dashboard with graphs showing total arrival delay, average departure delay and total cancellations for all airports
